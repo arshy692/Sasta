@@ -42,7 +42,7 @@ async def delay_spam(client: Client, message: Message):
         await message.reply_text("ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ꜰᴏʀᴍᴀᴛ. ᴜꜱᴇ: .ᴅᴇʟᴀʏꜱᴘᴀᴍ <ᴅᴇʟᴀʏ_ꜱᴇᴄᴏɴᴅꜱ> <ᴛᴇxᴛ>")
         return
 
-    quantity = 5
+    quantity = 5000
     if len(command_parts) > 3:
         try:
             quantity = int(command_parts[3])
